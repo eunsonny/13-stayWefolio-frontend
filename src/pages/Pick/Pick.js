@@ -71,7 +71,7 @@ export class Pick extends Component {
       prevState.qS.location !== qS.location ||
       prevState.qS.price !== qS.price
     ) {
-      // this.QueryString(qS);
+      this.QueryString(qS);
     }
   }
 
